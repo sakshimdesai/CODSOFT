@@ -1,0 +1,94 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f0f0f;
+  color: #e0e0e0;
+  line-height: 1.6;
+}
+
+
+header {
+  background-color: #121212;
+  text-align: center;
+  padding: 40px 20px;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+  color: #ffffff;
+}
+
+header p {
+  color: #9ea7b8;
+  margin-top: 8px;
+}
+
+
+main section {
+  padding: 30px 25px;
+  border-bottom: 1px solid #1d1d1d;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 12px;
+  color: #b2d4ff;
+  border-left: 4px solid #3572ef;
+  padding-left: 12px;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 22px;
+}
+
+ul li {
+  padding: 5px 0;
+}
+
+/* Projects */
+.project-item {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: #1a1a1a;
+  border-left: 4px solid #4c8cff;
+}
+
+.project-item h3 {
+  margin: 0 0 8px;
+  color: #e8f1ff;
+}
+
+.project-item p {
+  margin: 0;
+  color: #c0c0c0;
+}
+
+/* Links */
+a {
+  color: #4f9fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Contact */
+section#contact p {
+  margin-bottom: 6px;
+}
+
+/* Footer */
+footer {
+  background-color: #0b0b0b;
+  text-align: center;
+  padding: 20px;
+  color: #777;
+  font-size: 0.9rem;
+}
